@@ -34,15 +34,15 @@ while True:
         if  isWinner == True:
             break
     elif selection == 's' and isValid == True:
-        Player.moveDown(played, rowPosition= played.rowPosition+1)
+        Player.moveDown(played, rowPosition = played.rowPosition+1)
         if isWinner == True:
             break
     elif selection == 'a' and isValid == True:
-        Player.moveLeft(played, columnPosition= played.columnPosition-1)
+        Player.moveLeft(played, columnPosition = played.columnPosition-1)
         if isWinner == True:
             break
     elif selection == 'd' and isValid == True:
-        Player.moveRight(played, columnPosition= played.columnPosition+1)
+        Player.moveRight(played, columnPosition = played.columnPosition+1)
         if isWinner == True:
             break
     else:
